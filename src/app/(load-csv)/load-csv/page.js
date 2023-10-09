@@ -1,10 +1,13 @@
 "use client";
 import CsvUploader from "@/app/components/upload-csv";
+import { getTitle } from "@/app/utils/function";
 import { logo } from "@/app/utils/svg";
 import React from "react";
 
 const page = () => {
   return (
+   <>
+   {getTitle("Load CSV | WMS")}
     <section className="bg-black h-screen py-20 flex flex-col overflow-y-auto">
       <div className=" flex justify-center w-full max-w-[840px]  gap-20 mx-auto flex-col items-center">
         <div>{logo}</div>
@@ -20,6 +23,7 @@ const page = () => {
         </div>
       </div>
     </section>
+   </>
   );
 };
 

@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import OTPInput from "react-otp-input";
 import { logo } from "./utils/svg";
 import { useRouter } from "next/navigation";
+import { getTitle } from "./utils/function";
 
 export default function Home() {
   const [OTP, setOTP] = useState("");
@@ -14,6 +15,9 @@ export default function Home() {
     }
   },[OTP?.length])
   return (
+  <>
+     {getTitle("Passcode | WMS")}
+
     <section className="bg-black h-screen py-20 flex flex-col ">
       <div className=" flex justify-center w-full max-w-[840px] gap-[177px]  mx-auto flex-col items-center">
         <div>{logo}</div>
@@ -41,5 +45,6 @@ export default function Home() {
         
       </div>
     </section>
+  </>
   );
 }

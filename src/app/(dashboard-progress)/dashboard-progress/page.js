@@ -1,12 +1,16 @@
 "use client";
 import ProgressBar from "@/app/components/SemiCircleProgress";
 import SemiCircleProgress from "@/app/components/SemiCircleProgress";
+import { getTitle } from "@/app/utils/function";
 import React, { useState } from "react";
 
 const page = () => {
   const [progressValue, setProgressValue] = useState(33);
   return (
-    <div className="text-black pt-[42px] py-[186px] w-full">
+<>
+{getTitle("Dashboard progress | WMS")}
+
+<div className="text-black pt-[42px] py-[186px] w-full">
       <div className="container mx-auto ">
         <div className="grid grid-cols-4 rounded-xl border border-zinc-800">
           <div className="flex flex-col gap-4 py-8  border-r px-6 border-zinc-800 ">
@@ -340,6 +344,7 @@ const page = () => {
         </div>
       </div>
     </div>
+</>
   );
 };
 
