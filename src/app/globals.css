@@ -54,11 +54,11 @@
 }
 @font-face {
   font-family: "IBM_Plex_Mono_Regular";
-  src: url("/Fonts/IBM_Plex_Mono/IBMPlexMono-Regular.ttf");
+  src: url("../../Fonts/ibm-plex-mono/IBMPlexMono-Regular.otf");
 }
 @font-face {
   font-family: "IBM_Plex_Mono-Medium";
-  src: url("/Fonts/IBM_Plex_Mono/IBMPlexMono-Medium.ttf");
+  src: url("../../Fonts/ibm-plex-mono/IBMPlexMono-Medium.otf");
 }
 @font-face {
   font-family: "IBM_Plex_Mono-SemiBold";
@@ -66,7 +66,7 @@
 }
 @font-face {
   font-family: "IBM_Plex_Mono-Bold";
-  src: url("/Fonts/IBM_Plex_Mono/IBMPlexMono-Bold.ttf");
+  src: url("../../Fonts/ibm-plex-mono/IBMPlexMono-Bold.otf");
 }
 
 body {
@@ -75,6 +75,9 @@ body {
 }
 .ibm-regular {
   font-family: "IBM_Plex_Mono_Regular";
+}
+.ibm-medium{
+  font-family: "IBM_Plex_Mono-Medium";
 }
 .imb-bold {
   font-family: "IBM_Plex_Mono-Bold";

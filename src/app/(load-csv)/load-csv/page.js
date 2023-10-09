@@ -12,7 +12,7 @@ const page = () => {
       <div className=" flex justify-center w-full max-w-[840px]  gap-20 mx-auto flex-col items-center">
         <div>{logo}</div>
         <div className="w-full h-auto flex flex-col">
-          <h1 className="text-white text-center pb-16 font-normal ibm-regular text-[60px] leading-none">
+          <h1 className="text-white text-center ibm-regular pb-16 font-normal ibm-regular text-[60px] leading-none">
             LOAD CSV
           </h1>
           <div className="w-full max-w-[1062px] h-full max-h-[284px] container-color">

@@ -69,17 +69,17 @@ const CsvUploader = () => {
     }
   };
   return (
-      <div onDrop={handleDrop} onDragOver={handleDragOver} className="w-full dropzone max-w-[355px]  py-10 mx-auto flex flex-col justify-center items-center">
+      <div onDrop={handleDrop} onDragOver={handleDragOver} className="w-full dropzone max-w-[356px]  py-10 mx-auto flex flex-col justify-center items-center">
         <span>{uploadFileIcon}</span>
-        <span className="text-white pt-[18px] pb-6">Drag & drop files or </span>
+        <span className="text-white pt-[18px] pb-6 text-xl font-medium ibm-medium">Drag & drop files or </span>
         <button
           type="button"
           onClick={handleBrowseClick}
-          className="text-white btn-color mb-7 rounded-xl px-6 py-3 w-full max-w-[186px]"
+          className="text-white btn-color mb-7 ibm-medium text-base font-medium rounded-xl px-6 py-3 w-full max-w-[186px]"
         >
           Browse
         </button>
-        <p className="text-white">CSV file size should not exceed (x)mb</p>
+        <p className="text-slate-400 text-base leading-none ibm-regular font-normal ">CSV file size should not exceed (x)mb</p>
 
         <input
           ref={fileInputRef}
