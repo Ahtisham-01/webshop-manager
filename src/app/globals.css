@@ -68,7 +68,16 @@
   font-family: "IBM_Plex_Mono-Bold";
   src: url("../../Fonts/ibm-plex-mono/IBMPlexMono-Bold.otf");
 }
-
+/* Montserrat */
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url("../../Fonts/Montserrat/static/Montserrat-Regular.ttf");
+}
+/* Digital Number */
+@font-face {
+  font-family: "digital-number";
+  src: url("../../Fonts/digital-number/DigitalNumbers-Regular.ttf");
+}
 body {
   background: black;
   scroll-behavior: smooth;
@@ -76,11 +85,17 @@ body {
 .ibm-regular {
   font-family: "IBM_Plex_Mono_Regular";
 }
-.ibm-medium{
+.ibm-medium {
   font-family: "IBM_Plex_Mono-Medium";
 }
 .imb-bold {
   font-family: "IBM_Plex_Mono-Bold";
+}
+.Montserrat-Regular {
+  font-family: "Montserrat-Regular";
+}
+.digital-number-font {
+  font-family: "digital-number";
 }
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
@@ -160,6 +175,7 @@ input[type="number"] {
   display: flex;
   align-items: flex-end;
   justify-content: center;
+  font-family: "digital-number" !important;
 }
 
 [role="progressbar"]::before {
@@ -168,6 +184,7 @@ input[type="number"] {
   top: 0;
   left: 0;
   width: 100%;
+  font-family: "digital-number" !important;
   height: 100%;
   background: conic-gradient(
     from 0.75turn at 50% 100%,
@@ -181,6 +198,8 @@ input[type="number"] {
 }
 
 [role="progressbar"]::after {
+  font-family: "digital-number" !important;
+
   counter-reset: percentage var(--value);
   content: counter(percentage) "%";
   font-family: Helvetica, Arial, sans-serif;
@@ -198,7 +217,7 @@ input[type="number"] {
     ),
     #09090b;
 }
-.border-info{
+.border-info {
   border-radius: 12px;
   border: 4px solid rgba(39, 39, 42, 0.6);
 }

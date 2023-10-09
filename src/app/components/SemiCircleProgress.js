@@ -15,8 +15,8 @@ const ProgressBar = ({ value }) => {
   }, [value]);
 
   return (
-    <div role="progressbar" aria-valuenow={percentage} aria-valuemin="0" aria-valuemax="100" style={{ '--value': percentage }}>
-      <div className="progress-label">{percentage}%
+    <div className='!digital-number-font' role="progressbar" aria-valuenow={percentage} aria-valuemin="0" aria-valuemax="100" style={{ '--value': percentage }}>
+      <div className="progress-label !digital-number-font">{percentage}%
       </div>
     </div>
   );

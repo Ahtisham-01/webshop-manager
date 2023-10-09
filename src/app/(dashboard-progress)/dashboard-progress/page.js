@@ -15,12 +15,12 @@ const page = () => {
         <div className="grid grid-cols-4 rounded-xl border border-zinc-800">
           <div className="flex flex-col gap-4 py-8  border-r px-6 border-zinc-800 ">
             <p className="text-lg font-normal text-zinc-400">Current dataset</p>
-            <p className="text-white text-xl"> Primary Brands</p>
+            <p className="text-white text-xl ibm-regular"> Primary Brands</p>
           </div>
           <div className="flex justify-between py-8  items-end border-r px-6 border-zinc-800">
             <div className="flex flex-col gap-4  ">
-              <p className="text-lg font-normal text-zinc-400">Total Rows</p>
-              <p className="text-white text-3xl tracking-[-0.75]"> 376</p>
+              <p className="text-lg font-normal text-zinc-400 ibm-regular">Total Rows</p>
+              <p className="text-white text-3xl tracking-[-0.75] digital-number-font font-normal"> 376</p>
             </div>
             <svg
               width={28}
@@ -61,8 +61,8 @@ const page = () => {
           </div>
           <div className="flex justify-between py-8  items-end border-r px-6 border-zinc-800">
             <div className="flex flex-col gap-4  ">
-              <p className="text-lg font-normal text-zinc-400">Total Columns</p>
-              <p className="text-white text-3xl tracking-[-0.75]"> 742</p>
+              <p className="text-lg font-normal text-zinc-400 ibm-regular">Total Columns</p>
+              <p className="text-white text-3xl tracking-[-0.75] digital-number-font font-normal"> 742</p>
             </div>
             <svg
               width={28}
@@ -295,48 +295,48 @@ const page = () => {
         <div className="grid grid-cols-6 gap-8 ">
           <div className="w-full px-4 py-[38px] background-info">
             <div className="flex flex-col gap-6  max-w-[96px] ">
-              <span className="text-[40px] text-white leading-none">342</span>
-              <p className="text-base text-zinc-400 break-words w-full max-w-[68px]">
+              <span className="text-[40px] text-white leading-none digital-number-font">342</span>
+              <p className="text-base text-zinc-400 break-words ibm-ibm-regular w-full max-w-[68px]">
                 Missing Titles
               </p>
             </div>
           </div>
           <div className="w-full px-4 py-[38px] border-info">
             <div className="flex flex-col gap-6  max-w-[96px] ">
-              <span className="text-[40px] text-white leading-none">342</span>
-              <p className="text-base text-zinc-400 break-words w-full max-w-[140px]">
+              <span className="text-[40px] text-white leading-none digital-number-font">342</span>
+              <p className="text-base text-zinc-400 break-words w-full ibm-regular max-w-[140px]">
               Missing Desctiptions
               </p>
             </div>
           </div>
           <div className="w-full px-4 py-[38px] border-info">
             <div className="flex flex-col gap-6  max-w-[96px] ">
-              <span className="text-[40px] text-white leading-none">342</span>
-              <p className="text-base text-zinc-400 break-words w-full max-w-[140px]">
+              <span className="text-[40px] text-white leading-none digital-number-font">342</span>
+              <p className="text-base text-zinc-400 break-words w-full ibm-regular max-w-[140px]">
               Missing Categories
               </p>
             </div>
           </div>
           <div className="w-full px-4 py-[38px] border-info">
             <div className="flex flex-col gap-6  max-w-[96px] ">
-              <span className="text-[40px] text-white leading-none">342</span>
-              <p className="text-base text-zinc-400 break-words w-full max-w-[68px]">
+              <span className="text-[40px] text-white leading-none digital-number-font">342</span>
+              <p className="text-base ibm-regular text-zinc-400 break-words w-full max-w-[68px] ">
                 Missing Titles
               </p>
             </div>
           </div>
           <div className="w-full px-4 py-[38px] border-info">
             <div className="flex flex-col gap-6  max-w-[96px] ">
-              <span className="text-[40px] text-white leading-none">342</span>
-              <p className="text-base text-zinc-400 break-words w-full max-w-[140px]">
+              <span className="text-[40px] text-white leading-none digital-number-font">342</span>
+              <p className="text-base ibm-regular text-zinc-400 break-words w-full max-w-[140px]">
               Missing Desctiptions
               </p>
             </div>
           </div>
           <div className="w-full px-4 py-[38px] border-info">
             <div className="flex flex-col gap-6  max-w-[96px] ">
-              <span className="text-[40px] text-white leading-none">342</span>
-              <p className="text-base text-zinc-400 break-words w-full max-w-[140px]">
+              <span className="text-[40px] text-white leading-none digital-number-font">342</span>
+              <p className="text-base ibm-regular text-zinc-400 break-words w-full max-w-[140px]">
               Missing Desctiptions
               </p>
             </div>

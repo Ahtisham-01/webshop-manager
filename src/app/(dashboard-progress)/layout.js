@@ -8,7 +8,7 @@ const Layout = ({ children }) => {
       <div className="w-full flex justify-between items-center border-b border-zinc-800 bg-black">
         <div className="py-11 px-8 border-r border-zinc-800">{dashboardlogo}</div>
         <div>
-          <span className="text-white">WEBSHOP MANAGER</span>
+          <span className="text-white Montserrat-Regular text-xl">WEBSHOP MANAGER</span>
         </div>
         <div className="flex">
           <div className="py-5 px-7  border-l border-zinc-800">
