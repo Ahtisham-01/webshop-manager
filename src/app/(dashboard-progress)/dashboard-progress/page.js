@@ -101,7 +101,7 @@ const page = () => {
               />
             </svg>
           </div>
-          <div className="flex flex-col gap-4 border-r pt-4 px-8 border-zinc-800 ">
+          <div className="flex flex-col gap-4 border-r pt-4 px-8 items-center justify-center border-zinc-800 ">
             <ProgressBar value={progressValue} />
           </div>
         </div>
