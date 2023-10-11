@@ -18,7 +18,7 @@ export default function Home() {
   <>
      {getTitle("Passcode | WMS")}
 
-    <section className="bg-black h-screen py-20 flex flex-col ">
+    <section className="bg-home h-screen py-20 flex flex-col ">
       <div className=" flex justify-center w-full max-w-[840px] gap-[177px]  mx-auto flex-col items-center">
         <div>{logo}</div>
         <div className="w-full h-full max-h-[215px]">

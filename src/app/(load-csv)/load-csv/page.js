@@ -8,7 +8,7 @@ const page = () => {
   return (
    <>
    {getTitle("Load CSV | WMS")}
-    <section className="bg-black h-screen py-20 flex flex-col overflow-y-auto">
+    <section className="bg-home h-screen py-20 flex flex-col overflow-y-auto">
       <div className=" flex justify-center w-full max-w-[840px]  gap-20 mx-auto flex-col items-center">
         <div>{logo}</div>
         <div className="w-full h-auto flex flex-col">
@@ -16,9 +16,7 @@ const page = () => {
             LOAD CSV
           </h1>
           <div className="w-full max-w-[1062px] h-full max-h-[284px] container-color">
-          
              <CsvUploader/>
-           
           </div>
         </div>
       </div>
