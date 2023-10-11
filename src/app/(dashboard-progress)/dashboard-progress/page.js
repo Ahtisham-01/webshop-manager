@@ -8,14 +8,14 @@ const page = () => {
   return (
 <>
 
-<div className="text-black pt-[42px] py-[186px] w-full">
+<div className="text-black pt-[42px] py-[186px] w-full bg-dash">
       <div className="container mx-auto ">
         <div className="grid grid-cols-4 rounded-xl border border-zinc-800">
-          <div className="flex flex-col gap-4 py-8  border-r px-6 border-zinc-800 ">
+          <div className="flex flex-col gap-4 my-8  border-r px-6 border-zinc-800 ">
             <p className="text-lg font-normal text-zinc-400">Current dataset</p>
             <p className="text-white text-xl ibm-regular"> Primary Brands</p>
           </div>
-          <div className="flex justify-between py-8  items-end border-r px-6 border-zinc-800">
+          <div className="flex justify-between my-8  items-end border-r px-6 border-zinc-800">
             <div className="flex flex-col gap-4  ">
               <p className="text-lg font-normal text-zinc-400 ibm-regular">Total Rows</p>
               <p className="text-white text-3xl tracking-[-0.75] digital-number-font font-normal"> 376</p>
@@ -57,7 +57,7 @@ const page = () => {
               />
             </svg>
           </div>
-          <div className="flex justify-between py-8  items-end border-r px-6 border-zinc-800">
+          <div className="flex justify-between my-8  items-end  px-6 ">
             <div className="flex flex-col gap-4  ">
               <p className="text-lg font-normal text-zinc-400 ibm-regular">Total Columns</p>
               <p className="text-white text-3xl tracking-[-0.75] digital-number-font font-normal"> 742</p>
@@ -99,7 +99,7 @@ const page = () => {
               />
             </svg>
           </div>
-          <div className="flex flex-col gap-4 border-r pt-4 px-8 items-center justify-center border-zinc-800 ">
+          <div className="flex flex-col gap-4 border-r pt-4 px-8 items-center justify-center border-l border-zinc-800 ">
             <ProgressBar value={progressValue} />
           </div>
         </div>
