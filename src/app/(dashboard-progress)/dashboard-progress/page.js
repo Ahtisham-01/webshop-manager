@@ -1,7 +1,7 @@
 "use client";
 import ProgressBar from "@/app/components/SemiCircleProgress";
-import SemiCircleProgress from "@/app/components/SemiCircleProgress";
 import AnimatedSVG from "@/app/components/animate-svg";
+import ProgressBarAnimation from "@/app/components/progressbar";
 import React, { useState } from "react";
 
 const page = () => {
@@ -101,7 +101,7 @@ const page = () => {
             </svg>
           </div>
           <div className="flex flex-col gap-4 border-r pt-4 px-8 items-center justify-center border-l border-zinc-800 ">
-            <ProgressBar value={progressValue} />
+            <ProgressBarAnimation/>
           </div>
         </div>
       <AnimatedSVG/>

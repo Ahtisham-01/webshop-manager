@@ -236,3 +236,38 @@ input[type="number"] {
     ),
     #000;
 }
+.progress {
+  position: relative;
+  margin: 4px;
+  float: left;
+  text-align: center;
+  width: 254px;
+  height: 123px;
+}
+
+.barOverflow {
+  position: relative;
+  overflow: hidden;
+  width: 254px;
+  height: 127px;
+  margin-bottom: -127px;
+}
+
+.bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 254px;
+  height: 254px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  border: 20px solid #27272a;
+  border-bottom-color: #a3e635;
+  border-right-color: #a3e635;
+}
+
+.number{
+  position: absolute;
+  top: 58px;
+  left: 87px;
+}

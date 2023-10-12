@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-const ProgressBar = ({ value }) => {
+const ProgressBar1 = ({ value }) => {
   const [percentage, setPercentage] = useState(0);
 
   useEffect(() => {
@@ -22,4 +22,4 @@ const ProgressBar = ({ value }) => {
   );
 };
 
-export default ProgressBar;
+export default ProgressBar1;
